@@ -4,8 +4,8 @@ version: '3.2'
 
 services:
   appserver:
-    image: casmanagement:latest
-    container_name: casmanagement
+    image: cas-management:latest
+    container_name: cas-management
     ports:
       - 8009:8009
       - 8080:8080
